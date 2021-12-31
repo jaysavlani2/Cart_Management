@@ -1,0 +1,27 @@
+[
+    {
+        "Name": "Mango",
+        "Price": 5.03,
+        "img": "mango.jpeg"
+    },
+    {
+        "Name": "Orange",
+        "Price": 3.06,
+        "img": "orange.jpeg"
+    },
+    {
+        "Name": "Banana",
+        "Price": 1.37,
+        "img": "banana.jpeg"
+    },
+    {
+        "Name": "Apple",
+        "Price": 4.45,
+        "img": "apple.jpeg"
+    },
+    {
+        "Name": "Pine Apple",
+        "Price": 2.97,
+        "img": "pineapple.jpeg"
+    }
+]

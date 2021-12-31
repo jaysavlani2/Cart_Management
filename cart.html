@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cart Management</title>
+	<link rel="stylesheet" type="text/css" href="/style/cart.css">
+</head>
+
+<body>
+	<div class="CartContainer">
+		<div class="Header">
+			<h3 class="Heading">Shopping Cart</h3>
+			<button class="Action" onclick="clearCart()">Remove all</button>
+		</div>
+
+		<div class="Cart-Body">
+
+		</div>
+		<hr>
+		<div class="checkout">
+			<div class="total">
+				<div>
+					<div class="Subtotal">Sub-Total</div>
+					<div class="items"></div>
+				</div>
+				<div class="total-amount"></div>
+			</div>
+			<input type="button" class="button" value="Checkout" onclick="location.href = './checkout.html';">
+			<input type="button" class="button" value="Back" onclick="location.href = './index.html';">
+		</div>
+	</div>
+	<script src="/script/cart.js"></script>
+	<script>
+		updateCart(0);
+	</script>
+</body>
+
+</html>
